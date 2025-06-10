@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f7f7f7;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center; /* Center the titles */
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 20px;
+  text-align: center; /* Center paragraph text below headers */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center; /* Center the product grid horizontally */
+  gap: 20px;
+}
+
+.product {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  width: 300px; /* Ensure all products have the same fixed width */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+}
+
+.product p {
+  font-size: 1em;
+  font-weight: bold;
+  color: #4CAF50;
+}
